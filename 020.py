@@ -6,7 +6,7 @@ import numpy as np
 arr = np.arange(9).reshape(3, 3)
 
 # Method 1:
-rand_arr = np.random.randint(low=5, high=10, size=(5, 3))+np.random.random((5, 3))
+rand_arr = np.random.randint(low=5, high=10, size=(5, 3)) + np.random.random((5, 3))
 print(repr(rand_arr))
 
 # Method 2:
